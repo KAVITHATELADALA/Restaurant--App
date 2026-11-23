@@ -2,12 +2,8 @@ import React from 'react'
 import './index.css'
 
 const CategoryItem = props => {
-  const {
-    dishDetails,
-    cartItemQuantity,
-    incrementCartItem,
-    decrementCartItem,
-  } = props
+  const {dishDetails, cartItemQuantity, incrementCartItem, decrementCartItem} =
+    props
 
   const {
     dish_id: dishId,
